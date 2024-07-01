@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SB</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="icon" href="./IMG/icon.png" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img src="./IMG/logo.png" alt="" class="logoicon" />
+      <nav>
+        <ul id="menulist">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+          <i class="fas fa-bars" onclick="togglemenu()"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="bio" id="Home">
+      <div><img src="./IMG/profile.png" alt="" class="profile" ></div>
+      <div>
+      <h2>Hello, I'm<br /><strong>Sahil Boricha</strong></h2>
+      <p>
+        A passionate Computer Engineer, I thrive on transforming innovative
+        ideas into functional digital solutions, driven by a desire to learn and
+        adapt to the latest industry trends.
+      </p>
+    
+    <a href="#contact"
+      ><button style="--c: blueviolet">
+        Contact Me
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-right"
+          viewBox="0 0 16 16"
+          style="align-items: center; margin-left: 5px"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+          />
+        </svg></button
+    ></a>
+    <a href="./pdf/Sahil Boricha_resume.pdf" download id="CV"
+      ><button style="--c: blueviolet">
+        Get CV
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-right"
+          viewBox="0 0 16 16"
+          style="align-items: center; margin-left: 5px"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+          />
+        </svg></button
+    ></a>
+  </div>
+</div>
+    <hr />
+    <section class="about" id="about">
+      <h2>About <span style="color: blueviolet; font-size: 25px">Me</span><br><h3>My Intro</h3></h2>
+      <p>
+        I am Sahil Boricha, I am currently pursuing a degree in Computer
+        Engineering at GEC Bhavnagar, having previously completed a diploma in
+        Information Technology at BPTI Bhavnagar. With a passion for web
+        development, I am dedicated to creating innovative and user-friendly
+        digital experiences. I am eager to apply my skills and knowledge to
+        real-world projects. Welcome to my Story, where technology meets
+        creativity!
+      </p>
+      <div style="flex-wrap: wrap;">
+        <p><strong>Email: </strong>borichasahil0311@gmail.com</p>
+        <p><strong>Phone: </strong>+91 7226865698</p>
+        <p><strong>Address: </strong>Bhavnagar, India</p>
+        <p><strong>Age: </strong>20</p>
+      </div>
+    </section>
+    <hr />
+    <section class="services" id="services">
+      <h2>
+        Services<span style="color: blueviolet; font-size: 25px"> I'm Great At</span>
+      </h2>
+      <div class="service-content">
+        
+        <div class="service">
+          <img src="./IMG/web.png" alt="">
+          <h1 class="title">Web Development</h1>
+          <p>The stages of web development include designing the website, producing content, implementing client-side and server-side scripts, andsetting upnetwork security.</p>
+        </div>
+        <div class="service">
+          <img src="./IMG/programming.png" alt="">
+          <h1 class="title">Programming</h1>
+          <p>The process of programming allows computers to tackle problems.<br>I have experience with C, Java, Python, PHP, SQL and kotlin.</p>
+        </div>
+        <div class="service">
+          <img src="./IMG/android.png" alt="">
+          <h1 class="title">Android Developing</h1>
+          <p>My skills include developing applications on the Android Studio platform, enabling me to build features-rich and user-friednly Android devices.</p>
+        </div>
+        <div class="service">
+          <img src="./IMG/editing.png" alt="">
+          <h1 class="title">Photo Editing</h1>
+          <p>I like to edit photos in Adobe Photoshop. I create company Icon, Logos, Stickers.</p>
+        </div>
+        
+      </div>
+    </section>
+    <hr>
+    <section class="resume" id="resume">
+      <div class="experiences">
+        <h2>
+          Experience<span style="color: blueviolet; font-size: 25px">
+            working with</span
+          >
+        </h2>
+        <div class="experience">
+          <div class="content">
+            <div class="web">
+            <img src="./IMG/web-development.png" alt="">
+          </div>
+            <p class="hack">
+              <strong>Team Member in hackathon (December 2023)</strong><br>
+              Successfully designed and developed a personalized learning
+              platform using HTML, CSS, PHP LARAVEL, demonstrating problem
+              solving skills and creativity.
+            </p>
+          </div>
+          <div class="content">
+            <div class="web">
+            <img src="./IMG/web-development.png" alt="">
+          </div>
+            <p class="hack">
+              I have experience of web development. I can design website with html css js, reactjs and Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="educations">
+        <h2>
+          Education<span style="color: blueviolet; font-size: 25px">
+            Studied At</span
+          >
+        </h2>
+        <div class="education">
+          <div class="degree">
+            <span>2022-Present</span>
+            <h4>Government Engineering College<br />Bhavnagar</h4>
+            <p>
+              I am currently pursuing my B.E degree in Computer Engineering.
+            </p>
+          </div>
+          <div class="diploma">
+            <span>2019-2022</span>
+            <h4>Sir Bhavsinhji Polytechnic Institute<br />Bhavnagar</h4>
+            <p>
+              I had completed my diploma Information technology in BPTI college.
+            </p>
+          </div>
+          <div class="school">
+            <span>2008-2019</span>
+            <h4>Shree Swaminarayan Gurukul<br />Sihor</h4>
+            <p>
+              I completed my study of std 1 to 10 in his school.</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <h2>
+          Professional<span style="color: blueviolet; font-size: 25px">
+            Coding Skills</span
+          >
+        </h2>
+        <div class="container">
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="HTML/CSS" style="--num: 90">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+    
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="JS" style="--num: 60">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>60<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="JAVA" style="--num: 70">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="PYTHON" style="--num: 65;">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>65<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="PHP" style="--num: 75">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>75<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="C/C++" style="--num: 50">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>50<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="shadow"></div>
+            <div class="content">
+              <div class="percent" data-text="reactjs" style="--num: 50">
+                <div class="dot"></div>
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+              </div>
+              <div class="number">
+                <h2>50<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="achive-certi">
+        <h2>
+          Achievements & Certifications<span
+            style="color: blueviolet; font-size: 25px"
+          >
+            By Skills</span
+          >
+        </h2>
+        <div class="content-ac">
+        <div class="achievment" style="width: 385px;">
+          
+          <h3>Achievements</h3>
+          <div class="project-content">
+            <div class="project">
+              <p>
+                <strong>Smart India hackathon-2023, team member</strong>
+                  <br><strong>>>></strong> 19th-20 December (2023) | Bengaluru, India
+                  <br><strong>>>></strong> Participated in smart India hackathon held at 
+                  nodal centre NHCE Bengaluru, India.
+                  <br><strong>>>></strong> Problem statement- personalized learning for 
+                  specific topic
+              </p>
+            </div>
+          </div>
+          </div>
+        <div class="certification">
+          <h3>Certifications</h3>
+          <div class="certi">
+            <p><strong>>>> </strong>Smart India Hackathon 2023 Appreciation</p>
+          </div>
+          <div class="certi">
+            <p><strong>>>> </strong>Google Cloud Campaign Certification</p>
+          </div>
+          <div class="certi">
+            <p><strong>>>> </strong>Participation in Python Course</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="interests">
+        <h2>
+          Interests<span style="color: blueviolet; font-size: 25px">
+            Of Life</span
+          >
+        </h2>
+        <div>
+        <div class="interest">
+          <div class="int">
+            <p><strong>>>> </strong>Gaining the knowledge about computers 
+              and technologies</p>
+          </div>
+          <div class="int">
+            <p><strong>>>> </strong>learning languages</p>
+          </div>
+          <div class="int">
+            <p><strong>>>> </strong>Gain the knowledge about which 
+              languages are trending currently in the 
+              market and IT field.</p>
+          </div>
+          <div class="int">
+            <p><strong>>>> </strong>Web Development and Competitive Coding</p>
+          </div>
+          <div class="int">
+            <p><strong>>>> </strong>Drawing</p>
+          </div>
+          <div class="int">
+            <p><strong>>>> </strong>Papercraft and Listening to music</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>
+        Projects<span style="color: blueviolet; font-size: 25px"> Works</span>
+      </h2>
+      <div class="project-content">
+        <div class="project">
+          <h3>TUTORTECHIES</h3>
+          <p>
+            <strong>Problem Statement: </strong>Personalized learning for
+            specific topic. Spearheaded the creation of a personalized learning
+            platform focused on [specific topic]. <br />
+            <strong>TechStack: </strong>Firebase, HTML, CSS, PHP LARAVEL,
+            Bootstrap
+          </p>
+        </div>
+        <div class="project">
+          <h3>INDIAPAY</h3>
+          <p>
+            Developed Payment related Application using Android java. <br />
+            Add the features like DTH recharge, Electricity Bill, Mobile
+            Recharge, OTT.
+            <br /><strong>TechStack: </strong>Android Java, XML, MYSQL(PHP)
+          </p>
+        </div>
+        <div class="project">
+          <h3 style="font-size: 19px">PERSONAL PORTFOLIO WEBSITE</h3>
+          <p>
+            Created a polished portfolio website with demonstrating expertise in
+            web development. <br /><strong>TechStack: </strong>HTML, CSS, JS
+          </p>
+        </div>
+        <div class="project">
+          <h3>E-HEALTCARE</h3>
+          <p>
+            Developed an E-Healthcare web project facilitating immediate medical
+            guidance. Users can register, store their details, and receive
+            doctor advice, including prescription services. <br /><strong
+              >TechStack: </strong
+            >HTML, CSS, JS, MYSQL, PHP
+          </p>
+        </div>
+      <div class="project">
+        <h3>Ordering</h3>
+        <p>
+          In today's fast-paced world, consumers demand convenience and
+          efficiency in all aspects of their lives, including dining.
+          <br /><strong>TechStack: </strong>HTML, CSS, JS, reactjs, mongodb
+        </p>
+      </div>
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>
+          Many users need a basic calculator for simple arithmetic without
+          installing extra software. A web-based calculator offers convenient,
+          accessible use on any internet-enabled device.<br /><strong
+            >TechStack: </strong
+          >HTML, CSS, JS
+        </p>
+      </div>
+    </section>
+    <hr />
+    <section class="contact" id="contact">
+      <h2>
+        Contact<span style="color: blueviolet; font-size: 25px">
+          Get In Touch</span
+        >
+      </h2>
+      <div class="container">
+        <div class="form">
+          <div class="contact-info">
+            <h2 class="title">Sahil Boricha</h2>
+            <div class="info">
+              <div class="information">
+                <h3><strong>Age: </strong>20</h3>
+              </div>
+              <div class="information">
+                <h3><strong>Freelance: </strong>Available</h3>
+              </div>
+              <div class="information">
+                <img src="IMG/location.png" class="icon" alt="" />
+                <p>India</p>
+              </div>
+              <div class="information">
+                <img src="IMG/location.png" class="icon" alt="" />
+                <p>bhavnagar, gujarat</p>
+              </div>
+              <div class="information">
+                <img src="IMG/email.png" class="icon" alt="" />
+                <p>borichasahil0311@gmail.com</p>
+              </div>
+              <div class="information">
+                <img src="IMG/phone.png" class="icon" alt="" />
+                <p>+91 7226865698</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+  
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact Me</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+          <div class="sign">
+            <p>sahil</p>
+          </div>
+        </div>
+        
+      </div>
+  
+      <script src="./JS/app.js"></script>
+    </section>
+    <hr>
+    <div class="social-media">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/your.SB/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://github.com/bsahil03">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/_bsahill/">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/bsahil03/">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    <script src="./JS/progressbar.js"></script>
+<script>
+  let menulist = document.getElementById("menulist")
+  menulist.style.maxHeight = "0px";
+
+  function togglemenu(){
+    if(menulist.style.maxHeight = "0px"){
+      menulist.style.maxHeight = "400px";
+    }
+    else{
+      menulist.style.maxHeight = "0px"
+    }
+  }
+</script>
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+  
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData.entries());
+  
+    fetch('http://localhost:4000/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then(response => response.text())
+      .then(data => {
+        alert('Message sent successfully!');
+        console.log(data);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Error sending message. Please try again later.');
+      });
+  });
+
+  </script>
+  </body>
+</html>
